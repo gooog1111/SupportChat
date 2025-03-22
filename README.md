@@ -151,10 +151,22 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
 Отредактируйте файл `includes/admins.php`:
 
 ```php
-'логин' => [
-    'password' => password_hash('пароль', PASSWORD_DEFAULT),
-    'name' => 'Имя администратора'
-]
+<?php $ADMINS = array (
+  'admin' => 
+  array (
+    'password' => '$2y$10$DCjIXIdp9qF.HwZAQhkH8OUMtGuKcAyYjFDxSWPyn4OhkecGFCo4S',
+    'name' => 'admin1',
+  ),
+  'admin1' => 
+  array (
+    'password' => '$2y$10$DCjIXIdp9qF.HwZAQhkH8OUMtGuKcAyYjFDxSWPyn4OhkecGFCo4S',
+    'name' => 'admin2',
+  ),
+); ?>
+```
+```
+Дефолтный логин/пароль
+admin/password
 ```
 ---
 ## 🛡️ Рекомендации по безопасности
