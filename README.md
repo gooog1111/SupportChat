@@ -7,11 +7,11 @@
 
 Простой и (не очень) безопасный чат для организации технической поддержки с разделением на клиентский и административный интерфейсы. Работает на Apache, Nginx или IIS без использования БД и Node.js.
 
-![Пример интерфейса поьзователя](https://github.com/gooog1111/support_chat/blob/main/chat/assets/images/client.png)
+![Пример интерфейса поьзователя](https://github.com/gooog1111/supportchat/blob/main/chat/assets/images/client.png)
 
 ---
 
-![Пример интерфейса администратора](https://github.com/gooog1111/support_chat/blob/main/chat/assets/images/admin.png)
+![Пример интерфейса администратора](https://github.com/gooog1111/supportchat/blob/main/chat/assets/images/admin.png)
 
 ---
 
