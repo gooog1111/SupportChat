@@ -1,4 +1,86 @@
-# 💬 Чат технической поддержки (локальная сеть)
+<div align="center">
+
+<img src="resources/header.svg" alt="SupportChat" width="900"/>
+
+</div>
+
+
+
+
+
+<!-- STATS_START -->
+<!-- auto-updated locally · 2026-06-26 17:57 UTC -->
+
+[![Views local](https://img.shields.io/badge/Views_local-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views GitHub](https://img.shields.io/badge/Views_GitHub-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Unique visitors](https://img.shields.io/badge/Unique-1-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Clones](https://img.shields.io/badge/Clones-21-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Stars](https://img.shields.io/badge/Stars-1-yellow?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat/stargazers)
+[![Forks](https://img.shields.io/badge/Forks-0-green?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat/network/members)
+[![Downloads latest release](https://img.shields.io/badge/Downloads_latest_release-0-brightgreen?style=for-the-badge)](https://github.com/gooog1111/SupportChat/releases/latest)
+[![Downloads total assets](https://img.shields.io/badge/Downloads_total_assets-0-brightgreen?style=for-the-badge)](https://github.com/gooog1111/SupportChat/releases)
+
+<!-- STATS_END -->
+
+
+
+
+
+
+
+
+
+<!-- GRAPH_START -->
+<p align="center">
+  <img src="./traffic-views.png" width="100%" alt="GitHub Traffic">
+</p>
+<!-- GRAPH_END -->
+
+
+
+
+
+
+
+
+
+
+<!-- ISSUES_START -->
+<!-- auto-updated locally · 2026-06-26 17:57 UTC -->
+
+## Issues
+
+<p>
+  <a href="https://github.com/gooog1111/SupportChat/issues">
+    <img alt="Open issues" src="https://img.shields.io/badge/Open_issues-0-blue?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://github.com/gooog1111/SupportChat/issues/new/choose">
+    <img alt="Create issue" src="https://img.shields.io/badge/Create_issue-new-success?style=for-the-badge&logo=github">
+  </a>
+</p>
+
+<details open>
+<summary><b>Открытые issues</b></summary>
+
+
+<p align="center">
+  <b>Открытых issues нет.</b><br>
+  <sub>Служебный issue <code>views-counter</code> скрыт из списка.</sub>
+</p>
+
+</details>
+
+<p>
+  <a href="https://github.com/gooog1111/SupportChat/issues/new/choose">Создать issue</a> ·
+  <a href="https://github.com/gooog1111/SupportChat/issues">Все issues</a>
+</p>
+
+<!-- ISSUES_END -->
+
+
+
+
+## Чат технической поддержки
 
 ## ⚠️ Внимание  
 Этот файл прошел автоматическую редактуру.
@@ -250,17 +332,7 @@ chat/
 │   └── index.php        # Защита от прямого доступа
 └── index.php            # Главный файл для перенаправления на клиентскую часть
 ```
----
-
-## 👥 Разработка
-
-Автор: [gooog1111](https://github.com/gooog1111/)
-
-Лицензия: MIT License
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
 > ⚠️ **Важно!** Перед использованием в продакшене проведите аудит безопасности и настройте HTTPS.
-
