@@ -1,3 +1,7 @@
+<!-- LANG_START -->
+🇬🇧 [English version](README.en.md)
+<!-- LANG_END -->
+
 <div align="center">
 
 <img src="resources/header.svg" alt="SupportChat" width="900"/>
@@ -9,12 +13,12 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated locally · 2026-06-26 17:57 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-28 04:23 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
-[![Views GitHub](https://img.shields.io/badge/Views_GitHub-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
-[![Unique visitors](https://img.shields.io/badge/Unique-1-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
-[![Clones](https://img.shields.io/badge/Clones-21-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-1-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views GitHub](https://img.shields.io/badge/Views_GitHub-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Unique visitors](https://img.shields.io/badge/Unique-0-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Clones](https://img.shields.io/badge/Clones-0-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Stars](https://img.shields.io/badge/Stars-1-yellow?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat/stargazers)
 [![Forks](https://img.shields.io/badge/Forks-0-green?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat/network/members)
 [![Downloads latest release](https://img.shields.io/badge/Downloads_latest_release-0-brightgreen?style=for-the-badge)](https://github.com/gooog1111/SupportChat/releases/latest)
@@ -46,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated locally · 2026-06-26 17:57 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-28 04:23 UTC -->
 
 ## Issues
 
@@ -67,6 +71,7 @@
   <b>Открытых issues нет.</b><br>
   <sub>Служебный issue <code>views-counter</code> скрыт из списка.</sub>
 </p>
+
 
 </details>
 
