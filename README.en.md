@@ -13,9 +13,9 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-06-28 18:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-28 19:01 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-5-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-6-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Unique visitors](https://img.shields.io/badge/Unique-1-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Clones](https://img.shields.io/badge/Clones-43-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-06-28 18:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-28 19:01 UTC -->
 
 ## Issues
 
@@ -85,14 +85,14 @@
 
 
 
-## Technical support chat
+## Чат технической поддержки
 
-## ⚠️ Attention  
-This file has been automatically edited.
+## ⚠️ Внимание  
+Этот файл прошел автоматическую редактуру.
 
 ---
 
-A simple and (not very) secure chat for organizing technical support, divided into client and administrative interfaces. Runs on Apache, Nginx or IIS without using a database or Node.js.
+Простой и (не очень) безопасный чат для организации технической поддержки с разделением на клиентский и административный интерфейсы. Работает на Apache, Nginx или IIS без использования БД и Node.js.
 
 ![Пример интерфейса поьзователя](https://github.com/gooog1111/supportchat/blob/main/chat/assets/images/client.png)
 
@@ -102,62 +102,62 @@ A simple and (not very) secure chat for organizing technical support, divided in
 
 ---
 
-## 🚀 Features
-- **Client part**  
-  - 📤 Send text and images (up to 5 MB)
-  - 📅 Correspondence history
-  - 🕒 Group messages by time (2 minute intervals)
-  - 🔄 Automatic session recovery  
-  - 👤 Unique session ID for each client
-- **Administrative panel**
-  - 🎯 Dynamic chat updates (every 10 sec)
-  - 🚦 Status system:
+## 🚀 Особенности
+- **Клиентская часть**  
+  - 📤 Отправка текста и изображений (до 5 МБ)
+  - 📅 История переписки
+  - 🕒 Группировка сообщений по времени (интервал 2 минуты)
+  - 🔄 Автоматическое восстановление сессии  
+  - 👤 Уникальный идентификатор сессии для каждого клиента
+- **Административная панель**
+  - 🎯 Динамическое обновление чатов (каждые 10 сек)
+  - 🚦 Система статусов:
     - `🟢 Открыт` 
     - `🟡 В работе (Имя админа)`
     - `🔴 Закрыт`
-  - 🛠 Chat management (open/close/clear)  
-  - 🔍 View client metadata (IP, PC name)  
-  - 📊 Chat statuses (Open, In progress, Closed)  
-  - 🔄 Automatic update of chat list
-- **Safety**  
-  - 🔒 XSS and CSRF protection  
-  - 🔑 Session and authorization system  
-  - 📁 Storing data in JSON files  
-  - 🔄 Regular cleaning of inactive sessions
-- **Adaptability**  
-  - 📱 Optimized for mobile devices
+  - 🛠 Управление чатами (открытие/закрытие/очистка)  
+  - 🔍 Просмотр метаданных клиентов (IP, имя ПК)  
+  - 📊 Статусы чатов (Открыт, В работе, Закрыт)  
+  - 🔄 Автоматическое обновление списка чатов
+- **Безопасность**  
+  - 🔒 Защита от XSS и CSRF  
+  - 🔑 Система сессий и авторизации  
+  - 📁 Хранение данных в JSON-файлах  
+  - 🔄 Регулярная очистка неактивных сессий
+- **Адаптивность**  
+  - 📱 Оптимизирован для мобильных устройств
 
-## ⚙️ Server requirements
-## # Required components
-| Component | Minimum version | 
-|----------------|--------------------|
-| PHP | 7.4+ |
-| Web server | Apache/Nginx/IIS | 
+## ⚙️ Требования к серверу
+## # Обязательные компоненты
+| Компонент       | Минимальная версия | 
+|-----------------|--------------------|
+| PHP             | 7.4+              |
+| Веб-сервер      | Apache/Nginx/IIS  | 
 
-## # Required PHP modules
+## # Необходимые модули PHP
 ```bash
 sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
 ```
-- **Web server**: Apache, Nginx or IIS  
-- **Write permissions** for folders: `uploads/`, `chats/`, `clients/`, `logs/`  
+- **Веб-сервер**: Apache, Nginx или IIS  
+- **Права на запись** для папок: `uploads/`, `chats/`, `clients/`, `logs/`  
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Установка
 
-## # 🪟Windows  
-## ## For IIS:  
-1. Set [PHP для Windows](https://windows.php.net/download/) and add the PHP path to the `PATH` variable.  
-2. In **IIS Manager**:  
-   - Create a website with a project root folder.  
-   - Set the `*.php` handler to `php-cgi.exe`.  
-3. Set up permissions:  
+## # 🪟 Windows  
+## ## Для IIS:  
+1. Установите [PHP для Windows](https://windows.php.net/download/) и добавьте путь к PHP в переменную `PATH`.  
+2. В **Диспетчере IIS**:  
+   - Создайте сайт с корневой папкой проекта.  
+   - Настройте обработчик `*.php` на `php-cgi.exe`.  
+3. Настройте права:  
    ```powershell  
    icacls "C:\путь_к_проекту" /grant IIS_IUSRS:(OI)(CI)F  
    ```
-## ## For Apache (via XAMPP/WAMP):  
-1. Copy the `chat` folder to `htdocs/`.  
-2. Add a virtual host:  
+## ## Для Apache (через XAMPP/WAMP):  
+1. Скопируйте папку `chat` в `htdocs/`.  
+2. Добавьте виртуальный хост:  
    ```apache  
    <VirtualHost *:80>  
        DocumentRoot "C:/xampp/htdocs/chat"  
@@ -168,18 +168,18 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
        </Directory>  
    </VirtualHost>  
    ```
-3. Restart Apache.
+3. Перезапустите Apache.
 
 ---
 
 ## # 🐧 Linux  
 ## ## Apache:  
-1. Install packages:  
+1. Установите пакеты:  
    ```bash  
    sudo apt install apache2 php libapache2-mod-php php-fileinfo  
    ```
-2. Place the project in `/var/www/html/chat`.  
-3. Set up a virtual host:  
+2. Разместите проект в `/var/www/html/chat`.  
+3. Настройте виртуальный хост:  
    ```apache  
    <VirtualHost *:80>  
        DocumentRoot /var/www/html/chat  
@@ -207,9 +207,11 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
        root /var/www/html/chat;  
        index index.php;  
        
-       location/{  
+       location / {  
            try_files $uri $uri/ /index.php?$args;  
-       }location ~ \.php$ {  
+       }  
+       
+location ~ \.php$ {  
            include snippets/fastcgi-php.conf;  
            fastcgi_pass unix:/run/php/php7.4-fpm.sock;  
        }  
