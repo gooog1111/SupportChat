@@ -13,9 +13,9 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-06-30 10:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-30 11:01 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-44-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-45-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Unique visitors](https://img.shields.io/badge/Unique-1-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Clones](https://img.shields.io/badge/Clones-143-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-06-30 10:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-30 11:01 UTC -->
 
 ## Issues
 
@@ -109,7 +109,7 @@ A simple and (not very) secure chat for organizing technical support, divided in
   - 🕒 Group messages by time (2 minute intervals)
   - 🔄 Automatic session recovery  
   - 👤 Unique session ID for each client
-- **Административная панель**
+- **Administrative panel**
   - 🎯 Dynamic chat updates (every 10 sec)
   - 🚦 Status system:
     - `🟢 Открыт` 
@@ -131,7 +131,7 @@ A simple and (not very) secure chat for organizing technical support, divided in
 ## # Required components
 | Component | Minimum version | 
 |----------------|--------------------|
-| PHP | 7.4+              |
+| PHP | 7.4+ |
 | Web server | Apache/Nginx/IIS | 
 
 ## # Required PHP modules
@@ -149,7 +149,7 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
 ## ## For IIS:  
 1. Set [PHP для Windows](https://windows.php.net/download/) and add the PHP path to the `PATH` variable.  
 2. In **IIS Manager**:  
-   - Создайте сайт с корневой папкой проекта.  
+   - Create a website with a project root folder.  
    - Set the `*.php` handler to `php-cgi.exe`.  
 3. Set up permissions:  
    ```powershell  
