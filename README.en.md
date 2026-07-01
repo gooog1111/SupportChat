@@ -13,9 +13,9 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-01 05:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-01 06:01 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-63-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-64-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Unique visitors](https://img.shields.io/badge/Unique-1-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Clones](https://img.shields.io/badge/Clones-298-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-01 05:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-01 06:01 UTC -->
 
 ## Issues
 
@@ -85,14 +85,14 @@
 
 
 
-## Чат технической поддержки
+## Technical support chat
 
 ## ⚠️ Attention  
 This file has been automatically edited.
 
 ---
 
-A simple and (not very) secure chat for organizing technical support, divided into client and administrative interfaces. Работает на Apache, Nginx или IIS без использования БД и Node.js.
+A simple and (not very) secure chat for organizing technical support, divided into client and administrative interfaces. Runs on Apache, Nginx or IIS without using a database or Node.js.
 
 ![Пример интерфейса поьзователя](https://github.com/gooog1111/supportchat/blob/main/chat/assets/images/client.png)
 
@@ -106,24 +106,24 @@ A simple and (not very) secure chat for organizing technical support, divided in
 - **Client part**  
   - 📤 Send text and images (up to 5 MB)
   - 📅 Correspondence history
-  - 🕒 Группировка сообщений по времени (интервал 2 минуты)
+  - 🕒 Group messages by time (2 minute intervals)
   - 🔄 Automatic session recovery  
-  - 👤 Уникальный идентификатор сессии для каждого клиента
+  - 👤 Unique session ID for each client
 - **Administrative panel**
-  - 🎯 Динамическое обновление чатов (каждые 10 сек)
+  - 🎯 Dynamic chat updates (every 10 sec)
   - 🚦 Status system:
     - `🟢 Открыт` 
     - `🟡 В работе (Имя админа)`
     - `🔴 Закрыт`
-  - 🛠 Управление чатами (открытие/закрытие/очистка)  
+  - 🛠 Chat management (open/close/clear)  
   - 🔍 View client metadata (IP, PC name)  
-  - 📊 Статусы чатов (Открыт, В работе, Закрыт)  
-  - 🔄 Автоматическое обновление списка чатов
+  - 📊 Chat statuses (Open, In progress, Closed)  
+  - 🔄 Automatic update of chat list
 - **Safety**  
   - 🔒 XSS and CSRF protection  
   - 🔑 Session and authorization system  
   - 📁 Storing data in JSON files  
-  - 🔄 Регулярная очистка неактивных сессий
+  - 🔄 Regular cleaning of inactive sessions
 - **Adaptability**  
   - 📱 Optimized for mobile devices
 
@@ -138,8 +138,8 @@ A simple and (not very) secure chat for organizing technical support, divided in
 ```bash
 sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
 ```
-- **Веб-сервер**: Apache, Nginx или IIS  
-- **Права на запись** для папок: `uploads/`, `chats/`, `clients/`, `logs/`  
+- **Web server**: Apache, Nginx or IIS  
+- **Write permissions** for folders: `uploads/`, `chats/`, `clients/`, `logs/`  
 
 ---
 
@@ -150,13 +150,13 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
 1. Set [PHP для Windows](https://windows.php.net/download/) and add the PHP path to the `PATH` variable.  
 2. In **IIS Manager**:  
    - Create a website with a project root folder.  
-   - Настройте обработчик `*.php` на `php-cgi.exe`.  
+   - Set the `*.php` handler to `php-cgi.exe`.  
 3. Set up permissions:  
    ```powershell  
    icacls "C:\путь_к_проекту" /grant IIS_IUSRS:(OI)(CI)F  
    ```
 ## ## For Apache (via XAMPP/WAMP):  
-1. Скопируйте папку `chat` в `htdocs/`.  
+1. Copy the `chat` folder to `htdocs/`.  
 2. Add a virtual host:  
    ```apache  
    <VirtualHost *:80>  
