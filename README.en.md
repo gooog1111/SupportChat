@@ -13,9 +13,9 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-01 16:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-01 17:01 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-74-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-75-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-2-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Unique visitors](https://img.shields.io/badge/Unique-1-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Clones](https://img.shields.io/badge/Clones-448-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-01 16:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-01 17:01 UTC -->
 
 ## Issues
 
@@ -294,7 +294,7 @@ chat/
 │ ├── update_hostnames.php # Update client PC names
 │ └── update_profile.php # Update the administrator profile
 ├── admin_online/ # Files for tracking the online status of administrators
-    ├── index.php # Protection against direct access
+    ├── index.php        # Защита от прямого доступа
 ├── assets/ # Project resources (styles, scripts, images)
 │ ├── css/ # Styles
 │ │ ├── admin.css # Styles for the admin panel
