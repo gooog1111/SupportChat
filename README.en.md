@@ -13,9 +13,9 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 13:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 14:01 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-73-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-74-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Unique visitors](https://img.shields.io/badge/Unique-0-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Clones](https://img.shields.io/badge/Clones-1806-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 13:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 14:01 UTC -->
 
 ## Issues
 
@@ -313,28 +313,28 @@ chat/
 ├── chats/ # Message history (JSON files)
 │ └── index.php # Protection against direct access
 ├── client/ # Client part
-│ ├── get_messages.php # Receiving messages for the client│ ├── get_online_admins.php # Getting the number of online administrators
-│ ├── index.php # Main client interface
-│ ├── restore_session.php # Restoring a client session
-│ └── send_message.php # Sending messages from the client
-├── clients/ # Client data (JSON files)
-│ └── index.php # Protection against direct access
-├── includes/ # System scripts and configurations
-│ ├── admins.php # Administrator data (logins, passwords, names)
-│ ├── config.php # Basic project settings
-│ ├── functions.php # Auxiliary functions (sanitization, CSRF tokens)
-│ ├── index.php # Protection against direct access
-│ ├── session.php # Session management
-│ ├── storage.php # Functions for working with data (saving, updating)
-│ └── upload_functions.php # Functions for uploading files
-├── logs/ # Error logs
-│ ├── error.log # Log file
-│ └── index.php # Protection against direct access
-├── uploads/ # Uploaded files (images)
-│ └── index.php # Protection against direct access
-└── index.php # Main file for redirecting to the client side
+│ ├── get_messages.php # Receiving messages for the client│   ├── get_online_admins.php # Получение количества онлайн-администраторов
+│   ├── index.php        # Основной интерфейс клиента
+│   ├── restore_session.php # Восстановление сессии клиента
+│   └── send_message.php # Отправка сообщений от клиента
+├── clients/             # Данные о клиентах (JSON-файлы)
+│   └── index.php        # Защита от прямого доступа
+├── includes/            # Системные скрипты и конфигурации
+│   ├── admins.php       # Данные администраторов (логины, пароли, имена)
+│   ├── config.php       # Основные настройки проекта
+│   ├── functions.php    # Вспомогательные функции (санитизация, CSRF-токены)
+│   ├── index.php        # Защита от прямого доступа
+│   ├── session.php      # Управление сессиями
+│   ├── storage.php      # Функции для работы с данными (сохранение, обновление)
+│   └── upload_functions.php # Функции для загрузки файлов
+├── logs/                # Логи ошибок
+│   ├── error.log        # Файл логов
+│   └── index.php        # Защита от прямого доступа
+├── uploads/             # Загруженные файлы (изображения)
+│   └── index.php        # Защита от прямого доступа
+└── index.php            # Главный файл для перенаправления на клиентскую часть
 ```
 
 ---
 
-> ⚠️ **Important!** Before using in production, conduct a security audit and configure HTTPS.
+> ⚠️ **Важно!** Перед использованием в продакшене проведите аудит безопасности и настройте HTTPS.
