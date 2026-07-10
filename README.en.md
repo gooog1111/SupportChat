@@ -13,9 +13,9 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 06:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 07:01 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-66-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-67-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Unique visitors](https://img.shields.io/badge/Unique-0-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Clones](https://img.shields.io/badge/Clones-1806-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 06:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 07:01 UTC -->
 
 ## Issues
 
@@ -211,7 +211,7 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
            try_files $uri $uri/ /index.php?$args;  
        }  
        
-       location ~ \.php$ {  
+location ~ \.php$ {  
            include snippets/fastcgi-php.conf;  
            fastcgi_pass unix:/run/php/php7.4-fpm.sock;  
        }  
@@ -252,7 +252,7 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
 ); ?>
 ```
 ```
-Дефолтный логин/пароль
+Default login/password
 admin/password
 ```
 ---
@@ -282,62 +282,61 @@ tar -czvf chat_backup_$(date +\%F).tar.gz chats/ clients/ uploads/
 ## 📂 Структура проекта
 ```
 chat/
-├── admin/               # Панель администратора
-│   ├── clear_chat.php   # Очистка чата
-│   ├── close_chat.php   # Закрытие чата
-│   ├── dashboard.php    # Основная панель управления
-│   ├── get_chat_list.php# Получение списка чатов
-│   ├── get_messages.php # Получение сообщений чата
-│   ├── index.php        # Перенаправление на страницу входа
-│   ├── login.php        # Страница входа для администратора
-│   ├── logout.php       # Выход из системы
-│   ├── send_message.php # Отправка сообщений от администратора
-│   ├── update_chat_status.php # Обновление статуса чата
-│   ├── update_hostnames.php   # Обновление имен ПК клиентов
-│   └── update_profile.php     # Обновление профиля администратора
-├── admin_online/        # Файлы для отслеживания онлайн-статуса администраторов
-    ├── index.php        # Защита от прямого доступа
-├── assets/              # Ресурсы проекта (стили, скрипты, изображения)
-│   ├── css/             # Стили
-│   │   ├── admin.css    # Стили для административной панели
-│   │   ├── all.min.css  # Минифицированные стили (например, FontAwesome)
-│   │   ├── index.php    # Защита от прямого доступа
-│   │   └── styles.css   # Основные стили для клиентской части
-│   ├── images/          # Изображения
-│   │   └── index.php    # Защита от прямого доступа
-│   ├── js/              # JavaScript-скрипты
-│   │   ├── admin.js     # Скрипты для административной панели
-│   │   ├── index.php    # Защита от прямого доступа
-│   │   └── script.js    # Скрипты для клиентской части
-│   ├── webfonts/        # Шрифты
-│   │   └── index.php    # Защита от прямого доступа
+├── admin/ # Administrator panel
+│ ├── clear_chat.php # Clearing chat
+│ ├── close_chat.php # Closing the chat
+│ ├── dashboard.php # Main control panel
+│ ├── get_chat_list.php# Getting a list of chats
+│ ├── get_messages.php # Receive chat messages
+│ ├── index.php # Redirect to login page
+│ ├── login.php # Login page for administrator
+│ ├── logout.php # Logout
+│ ├── send_message.php # Sending messages from the administrator
+│ ├── update_chat_status.php # Update chat status
+│ ├── update_hostnames.php # Update client PC names
+│ └── update_profile.php # Update the administrator profile
+├── admin_online/ # Files for tracking the online status of administrators
+    ├── index.php # Protection against direct access
+├── assets/ # Project resources (styles, scripts, images)
+│ ├── css/ # Styles
+│ │ ├── admin.css # Styles for the admin panel
+│ │ ├── all.min.css # Minified styles (for example, FontAwesome)
+│ │ ├── index.php # Protection against direct access
+│ │ └── styles.css # Basic styles for the client side
+│ ├── images/ # Images
+│ │ └── index.php # Protection against direct access
+│ ├── js/ # JavaScript scripts
+│ │ ├── admin.js # Scripts for the administrative panel
+│ │ ├── index.php # Protection against direct access
+│ │ └── script.js # Scripts for the client side
+│ ├── webfonts/ # Fonts
+│ │ └── index.php # Protection against direct access
+│ └── index.php # Protection against direct access
+├── chats/ # Message history (JSON files)
+│ └── index.php # Protection against direct access
+├── client/ # Client part
+│ ├── get_messages.php # Receiving messages for the client│   ├── get_online_admins.php # Получение количества онлайн-администраторов
+│   ├── index.php        # Основной интерфейс клиента
+│   ├── restore_session.php # Восстановление сессии клиента
+│   └── send_message.php # Отправка сообщений от клиента
+├── clients/             # Данные о клиентах (JSON-файлы)
 │   └── index.php        # Защита от прямого доступа
-├── chats/               # История сообщений (JSON-файлы)
+├── includes/            # Системные скрипты и конфигурации
+│   ├── admins.php       # Данные администраторов (логины, пароли, имена)
+│   ├── config.php       # Основные настройки проекта
+│   ├── functions.php    # Вспомогательные функции (санитизация, CSRF-токены)
+│   ├── index.php        # Защита от прямого доступа
+│   ├── session.php      # Управление сессиями
+│   ├── storage.php      # Функции для работы с данными (сохранение, обновление)
+│   └── upload_functions.php # Функции для загрузки файлов
+├── logs/                # Логи ошибок
+│   ├── error.log        # Файл логов
 │   └── index.php        # Защита от прямого доступа
-├── client/              # Клиентская часть
-│   ├── get_messages.php # Получение сообщений для клиента
-│ ├── get_online_admins.php # Getting the number of online administrators
-│ ├── index.php # Main client interface
-│ ├── restore_session.php # Restoring a client session
-│ └── send_message.php # Sending messages from the client
-├── clients/ # Client data (JSON files)
-│ └── index.php # Protection against direct access
-├── includes/ # System scripts and configurations
-│ ├── admins.php # Administrator data (logins, passwords, names)
-│ ├── config.php # Basic project settings
-│ ├── functions.php # Auxiliary functions (sanitization, CSRF tokens)
-│ ├── index.php # Protection against direct access
-│ ├── session.php # Session management
-│ ├── storage.php # Functions for working with data (saving, updating)
-│ └── upload_functions.php # Functions for uploading files
-├── logs/ # Error logs
-│ ├── error.log # Log file
-│ └── index.php # Protection against direct access
-├── uploads/ # Uploaded files (images)
-│ └── index.php # Protection against direct access
-└── index.php # Main file for redirecting to the client side
+├── uploads/             # Загруженные файлы (изображения)
+│   └── index.php        # Защита от прямого доступа
+└── index.php            # Главный файл для перенаправления на клиентскую часть
 ```
 
 ---
 
-> ⚠️ **Important!** Before using in production, conduct a security audit and configure HTTPS.
+> ⚠️ **Важно!** Перед использованием в продакшене проведите аудит безопасности и настройте HTTPS.
