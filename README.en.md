@@ -13,9 +13,9 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 07:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 08:01 UTC -->
 
-[![Views local](https://img.shields.io/badge/Views_local-67-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
+[![Views local](https://img.shields.io/badge/Views_local-68-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Unique visitors](https://img.shields.io/badge/Unique-0-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
 [![Clones](https://img.shields.io/badge/Clones-1806-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/SupportChat)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 07:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 08:01 UTC -->
 
 ## Issues
 
@@ -85,14 +85,14 @@
 
 
 
-## Чат технической поддержки
+## Technical support chat
 
-## ⚠️ Внимание  
-Этот файл прошел автоматическую редактуру.
+## ⚠️ Attention  
+This file has been automatically edited.
 
 ---
 
-Простой и (не очень) безопасный чат для организации технической поддержки с разделением на клиентский и административный интерфейсы. Работает на Apache, Nginx или IIS без использования БД и Node.js.
+A simple and (not very) secure chat for organizing technical support, divided into client and administrative interfaces. Runs on Apache, Nginx or IIS without using a database or Node.js.
 
 ![Пример интерфейса поьзователя](https://github.com/gooog1111/supportchat/blob/main/chat/assets/images/client.png)
 
@@ -102,62 +102,62 @@
 
 ---
 
-## 🚀 Особенности
-- **Клиентская часть**  
-  - 📤 Отправка текста и изображений (до 5 МБ)
-  - 📅 История переписки
-  - 🕒 Группировка сообщений по времени (интервал 2 минуты)
-  - 🔄 Автоматическое восстановление сессии  
-  - 👤 Уникальный идентификатор сессии для каждого клиента
-- **Административная панель**
-  - 🎯 Динамическое обновление чатов (каждые 10 сек)
-  - 🚦 Система статусов:
+## 🚀 Features
+- **Client part**  
+  - 📤 Send text and images (up to 5 MB)
+  - 📅 Correspondence history
+  - 🕒 Group messages by time (2 minute intervals)
+  - 🔄 Automatic session recovery  
+  - 👤 Unique session ID for each client
+- **Administrative panel**
+  - 🎯 Dynamic chat updates (every 10 sec)
+  - 🚦 Status system:
     - `🟢 Открыт` 
     - `🟡 В работе (Имя админа)`
     - `🔴 Закрыт`
-  - 🛠 Управление чатами (открытие/закрытие/очистка)  
-  - 🔍 Просмотр метаданных клиентов (IP, имя ПК)  
-  - 📊 Статусы чатов (Открыт, В работе, Закрыт)  
-  - 🔄 Автоматическое обновление списка чатов
-- **Безопасность**  
-  - 🔒 Защита от XSS и CSRF  
-  - 🔑 Система сессий и авторизации  
-  - 📁 Хранение данных в JSON-файлах  
-  - 🔄 Регулярная очистка неактивных сессий
-- **Адаптивность**  
-  - 📱 Оптимизирован для мобильных устройств
+  - 🛠 Chat management (open/close/clear)  
+  - 🔍 View client metadata (IP, PC name)  
+  - 📊 Chat statuses (Open, In progress, Closed)  
+  - 🔄 Automatic update of chat list
+- **Safety**  
+  - 🔒 XSS and CSRF protection  
+  - 🔑 Session and authorization system  
+  - 📁 Storing data in JSON files  
+  - 🔄 Regular cleaning of inactive sessions
+- **Adaptability**  
+  - 📱 Optimized for mobile devices
 
-## ⚙️ Требования к серверу
-## # Обязательные компоненты
-| Компонент       | Минимальная версия | 
-|-----------------|--------------------|
-| PHP             | 7.4+              |
-| Веб-сервер      | Apache/Nginx/IIS  | 
+## ⚙️ Server requirements
+## # Required components
+| Component | Minimum version | 
+|----------------|--------------------|
+| PHP | 7.4+ |
+| Web server | Apache/Nginx/IIS | 
 
-## # Необходимые модули PHP
+## # Required PHP modules
 ```bash
 sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
 ```
-- **Веб-сервер**: Apache, Nginx или IIS  
-- **Права на запись** для папок: `uploads/`, `chats/`, `clients/`, `logs/`  
+- **Web server**: Apache, Nginx or IIS  
+- **Write permissions** for folders: `uploads/`, `chats/`, `clients/`, `logs/`  
 
 ---
 
-## ⚙️ Установка
+## ⚙️ Installation
 
-## # 🪟 Windows  
-## ## Для IIS:  
-1. Установите [PHP для Windows](https://windows.php.net/download/) и добавьте путь к PHP в переменную `PATH`.  
-2. В **Диспетчере IIS**:  
-   - Создайте сайт с корневой папкой проекта.  
-   - Настройте обработчик `*.php` на `php-cgi.exe`.  
-3. Настройте права:  
+## # 🪟Windows  
+## ## For IIS:  
+1. Set [PHP для Windows](https://windows.php.net/download/) and add the PHP path to the `PATH` variable.  
+2. In **IIS Manager**:  
+   - Create a website with a project root folder.  
+   - Set the `*.php` handler to `php-cgi.exe`.  
+3. Set up permissions:  
    ```powershell  
    icacls "C:\путь_к_проекту" /grant IIS_IUSRS:(OI)(CI)F  
    ```
-## ## Для Apache (через XAMPP/WAMP):  
-1. Скопируйте папку `chat` в `htdocs/`.  
-2. Добавьте виртуальный хост:  
+## ## For Apache (via XAMPP/WAMP):  
+1. Copy the `chat` folder to `htdocs/`.  
+2. Add a virtual host:  
    ```apache  
    <VirtualHost *:80>  
        DocumentRoot "C:/xampp/htdocs/chat"  
@@ -168,18 +168,18 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
        </Directory>  
    </VirtualHost>  
    ```
-3. Перезапустите Apache.
+3. Restart Apache.
 
 ---
 
 ## # 🐧 Linux  
 ## ## Apache:  
-1. Установите пакеты:  
+1. Install packages:  
    ```bash  
    sudo apt install apache2 php libapache2-mod-php php-fileinfo  
    ```
-2. Разместите проект в `/var/www/html/chat`.  
-3. Настройте виртуальный хост:  
+2. Place the project in `/var/www/html/chat`.  
+3. Set up a virtual host:  
    ```apache  
    <VirtualHost *:80>  
        DocumentRoot /var/www/html/chat  
@@ -207,11 +207,9 @@ sudo apt install php7.4-fileinfo php7.4-json php7.4-session  # Для Linux
        root /var/www/html/chat;  
        index index.php;  
        
-       location / {  
+       location/{  
            try_files $uri $uri/ /index.php?$args;  
-       }  
-       
-location ~ \.php$ {  
+       }       location ~ \.php$ {  
            include snippets/fastcgi-php.conf;  
            fastcgi_pass unix:/run/php/php7.4-fpm.sock;  
        }  
@@ -252,7 +250,7 @@ location ~ \.php$ {
 ); ?>
 ```
 ```
-Default login/password
+Дефолтный логин/пароль
 admin/password
 ```
 ---
@@ -282,61 +280,62 @@ tar -czvf chat_backup_$(date +\%F).tar.gz chats/ clients/ uploads/
 ## 📂 Структура проекта
 ```
 chat/
-├── admin/ # Administrator panel
-│ ├── clear_chat.php # Clearing chat
-│ ├── close_chat.php # Closing the chat
-│ ├── dashboard.php # Main control panel
-│ ├── get_chat_list.php# Getting a list of chats
-│ ├── get_messages.php # Receive chat messages
-│ ├── index.php # Redirect to login page
-│ ├── login.php # Login page for administrator
-│ ├── logout.php # Logout
-│ ├── send_message.php # Sending messages from the administrator
-│ ├── update_chat_status.php # Update chat status
-│ ├── update_hostnames.php # Update client PC names
-│ └── update_profile.php # Update the administrator profile
-├── admin_online/ # Files for tracking the online status of administrators
-    ├── index.php # Protection against direct access
-├── assets/ # Project resources (styles, scripts, images)
-│ ├── css/ # Styles
-│ │ ├── admin.css # Styles for the admin panel
-│ │ ├── all.min.css # Minified styles (for example, FontAwesome)
-│ │ ├── index.php # Protection against direct access
-│ │ └── styles.css # Basic styles for the client side
-│ ├── images/ # Images
-│ │ └── index.php # Protection against direct access
-│ ├── js/ # JavaScript scripts
-│ │ ├── admin.js # Scripts for the administrative panel
-│ │ ├── index.php # Protection against direct access
-│ │ └── script.js # Scripts for the client side
-│ ├── webfonts/ # Fonts
-│ │ └── index.php # Protection against direct access
+├── admin/               # Панель администратора
+│   ├── clear_chat.php   # Очистка чата
+│   ├── close_chat.php   # Закрытие чата
+│   ├── dashboard.php    # Основная панель управления
+│   ├── get_chat_list.php# Получение списка чатов
+│   ├── get_messages.php # Получение сообщений чата
+│   ├── index.php        # Перенаправление на страницу входа
+│   ├── login.php        # Страница входа для администратора
+│   ├── logout.php       # Выход из системы
+│   ├── send_message.php # Отправка сообщений от администратора
+│   ├── update_chat_status.php # Обновление статуса чата
+│   ├── update_hostnames.php   # Обновление имен ПК клиентов
+│   └── update_profile.php     # Обновление профиля администратора
+├── admin_online/        # Файлы для отслеживания онлайн-статуса администраторов
+    ├── index.php        # Защита от прямого доступа
+├── assets/              # Ресурсы проекта (стили, скрипты, изображения)
+│   ├── css/             # Стили
+│   │   ├── admin.css    # Стили для административной панели
+│   │   ├── all.min.css  # Минифицированные стили (например, FontAwesome)
+│   │   ├── index.php    # Защита от прямого доступа
+│   │   └── styles.css   # Основные стили для клиентской части
+│   ├── images/          # Изображения
+│   │   └── index.php    # Защита от прямого доступа
+│   ├── js/              # JavaScript-скрипты
+│   │   ├── admin.js     # Скрипты для административной панели
+│   │   ├── index.php    # Защита от прямого доступа
+│   │   └── script.js    # Скрипты для клиентской части
+│   ├── webfonts/        # Шрифты
+│   │   └── index.php    # Защита от прямого доступа
+│   └── index.php        # Защита от прямого доступа
+├── chats/               # История сообщений (JSON-файлы)
+│   └── index.php        # Защита от прямого доступа
+├── client/              # Клиентская часть
+│   ├── get_messages.php # Получение сообщений для клиента
+│ ├── get_online_admins.php # Getting the number of online administrators
+│ ├── index.php # Main client interface
+│ ├── restore_session.php # Restoring a client session
+│ └── send_message.php # Sending messages from the client
+├── clients/ # Client data (JSON files)
 │ └── index.php # Protection against direct access
-├── chats/ # Message history (JSON files)
+├── includes/ # System scripts and configurations
+│ ├── admins.php # Administrator data (logins, passwords, names)
+│ ├── config.php # Basic project settings
+│ ├── functions.php # Auxiliary functions (sanitization, CSRF tokens)
+│ ├── index.php # Protection against direct access
+│ ├── session.php # Session management
+│ ├── storage.php # Functions for working with data (saving, updating)
+│ └── upload_functions.php # Functions for uploading files
+├── logs/ # Error logs
+│ ├── error.log # Log file
 │ └── index.php # Protection against direct access
-├── client/ # Client part
-│ ├── get_messages.php # Receiving messages for the client│   ├── get_online_admins.php # Получение количества онлайн-администраторов
-│   ├── index.php        # Основной интерфейс клиента
-│   ├── restore_session.php # Восстановление сессии клиента
-│   └── send_message.php # Отправка сообщений от клиента
-├── clients/             # Данные о клиентах (JSON-файлы)
-│   └── index.php        # Защита от прямого доступа
-├── includes/            # Системные скрипты и конфигурации
-│   ├── admins.php       # Данные администраторов (логины, пароли, имена)
-│   ├── config.php       # Основные настройки проекта
-│   ├── functions.php    # Вспомогательные функции (санитизация, CSRF-токены)
-│   ├── index.php        # Защита от прямого доступа
-│   ├── session.php      # Управление сессиями
-│   ├── storage.php      # Функции для работы с данными (сохранение, обновление)
-│   └── upload_functions.php # Функции для загрузки файлов
-├── logs/                # Логи ошибок
-│   ├── error.log        # Файл логов
-│   └── index.php        # Защита от прямого доступа
-├── uploads/             # Загруженные файлы (изображения)
-│   └── index.php        # Защита от прямого доступа
-└── index.php            # Главный файл для перенаправления на клиентскую часть
+├── uploads/ # Uploaded files (images)
+│ └── index.php # Protection against direct access
+└── index.php # Main file for redirecting to the client side
 ```
 
 ---
 
-> ⚠️ **Важно!** Перед использованием в продакшене проведите аудит безопасности и настройте HTTPS.
+> ⚠️ **Important!** Before using in production, conduct a security audit and configure HTTPS.
